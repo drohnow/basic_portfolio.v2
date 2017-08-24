@@ -34,7 +34,7 @@ body {
 
 .divMainSection {
 	width: 650px;
-	height: 450px;
+	height: 500px;
 	margin-left: 150px;
 	margin-top: 35px;
 	background-color: #ffffff;
@@ -46,15 +46,28 @@ body {
 	color: #4aaaa5;
 	font-size: 30px;
 	margin-left: 25px;
-	border-bottom: solid 2px Gray;
+	border-bottom: dotted 1px Gray;
 	padding-top: 10px;
 	padding-bottom: 25px;
 
 }
 
 
+.divMainSection img {
+	width: 200px;
+	height: 200px;
+	margin-left: 25px;
+	border: dotted 1px Gray;
+	float: left;
+	margin-right: 25px;
+}
+
 .divMainSection p {
-	margin: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+	font-size: 20px;
+	color: #777777;
+	line-height: 1.5;
 }
 
 
@@ -68,3 +81,11 @@ body {
 	margin-left: 35px;
 }
 
+.divSideBar h2 {
+	color: #4aaaa5;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 25px;
+	border-bottom: dotted 1px Gray;
+	padding-bottom: 25px;
+}
