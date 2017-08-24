@@ -40,8 +40,18 @@ body {
 	background-color: #ffffff;
 	border: solid 1px #cccccc;
 	float: left;
+}
+
+.divMainSection	 h1 {
+	color: #4aaaa5;
+	font-size: 30px;
+	margin-left: 25px;
+	border-bottom: solid 2px Gray;
+	padding-top: 10px;
+	padding-bottom: 25px;
 
 }
+
 
 .divMainSection p {
 	margin: 25px;
@@ -50,4 +60,11 @@ body {
 
 .divSideBar {
 	width: 270px;
+	height: 250px;
+	margin-top: 35px;
+	background-color: #ffffff;
+	border: solid 1px #cccccc;
+	float: left;
+	margin-left: 35px;
 }
+
