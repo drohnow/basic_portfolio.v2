@@ -3,6 +3,12 @@ body {
 	background-image: url("../images/brickwall_@2X.png");
 }
 
+.divTotalContent {
+	width: 960px;
+	height: 1000px;
+	border: solid 1px purple;
+	margin-left: 152px;
+}
 
 .divBanner {
 	width: 100%;
@@ -63,36 +69,41 @@ body {
 	color: Gray;
 }
 
-.divTotalContent {
-	width: 960px;
-	height: 1000px;
-	border: solid 1px purple;
-	margin-left: 152px;
-}
-
 .divMainSection {
-	width: 598px;
+	width: 650px;
 	height: 500px;
 	margin-top: 35px;
 	background-color: #ffffff;
 	border: solid 1px #cccccc;
 	float: left;
 	border: dotted 1px Gray;
-	padding-left-left: 25px;
-	margin-right: 25px;
+
 
 }
 
+.divMainSectionContactNameBox {
+	width: 600px;
+	height: 18px;
+	border: solid 1px Gray;
+	vertical-align: top;
+	font-size: 5px;
+
+}
+
+.divMainSectionContactNameBox p {
+	margin-left: 10px;
+	text-align: middle
+}
 
 
 .divMainSection	 h1 {
 	color: #4aaaa5;
 	font-size: 30px;
+	margin-left: 25px;
 	border-bottom: dotted 1px Gray;
 	padding-top: 10px;
 	padding-bottom: 25px;
-	margin-left: 25px;
-	margin-right: 25px;
+	margin-right: 25px
 }
 
 
@@ -100,27 +111,26 @@ body {
 
 .divMainSection h2 {
 	color: Gray;
-	font-size: 20px;
 	margin-left: 25px;
-	margin-right: 25px;
+	font-size: 20px;
 }
 
 
 .divMainSection img {
 	width: 200px;
 	height: 200px;
+	margin-left: 25px;
 	border: dotted 1px #dddddd	;
 	float: left;
-	margin-left: 25px;
 	margin-right: 25px;
 }
 
 .divMainSection p {
+	margin-left: 25px;
+	margin-right: 25px;
 	font-size: 20px;
 	color: #777777;
 	line-height: 1.5;
-	margin-left: 25px;
-	margin-right: 25px;
 }
 
 
